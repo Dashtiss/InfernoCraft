@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "infernocraft",
+  "version": "${version}",
+  "name": "InfernoCraft",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/infernocraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.dashtiss.infernocraft.client.InfernocraftClient"
+    ],
+    "main": [
+      "io.github.dashtiss.infernocraft.Infernocraft"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
