@@ -10,9 +10,6 @@
   "icon": "assets/infernocraft/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "io.github.dashtiss.infernocraft.client.InfernocraftClient"
-    ],
     "main": [
       "io.github.dashtiss.infernocraft.Infernocraft"
     ]

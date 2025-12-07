@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "infernocraft:block/exploding_block" }
+  }
+}
